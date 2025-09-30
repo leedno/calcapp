@@ -5,7 +5,7 @@ body{
   align-items:center;
   height: 100vh;
   background-color: hsl(0, 0%, 95%);
-  border: 2px solid red;
+  color: white;
 }
 #calculator{
   font-family: Arial, sans-serif;
@@ -39,3 +39,27 @@ button{
   font-weight: bold;
   cursor: pointer;
 }
+button:hover{
+  background-color: hsl(0, 0%, 40%);
+}
+button:active{  
+  background-color: hsl(0, 0%, 50%);
+}
+button.operator-btn{
+  background-color: hsl(35, 100%, 55%);
+}
+button.operator-btn:hover{
+  background-color: hsl(35, 100%, 65%);
+}
+button.operator-btn:active{
+  background-color: hsl(35, 100%, 75%);
+}
+
+
+
+
+
+
+
+
+
